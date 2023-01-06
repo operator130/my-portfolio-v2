@@ -182,6 +182,12 @@ body {
     scroll-snap-align: start;
 }
 
+/* @media (min-width: 992px) {
+    .page-section {
+        height: 150vh;
+    }
+} */
+
 .card {
     /* justify-content: center;
     align-items: center; */
@@ -195,13 +201,15 @@ body {
     }
 } */
 
+
+/* About Section */
+
 .img-profile {
     max-width: 400px;
     max-height: 460px;
 }
 
 .btn-social {
-    /* border-radius: 100%; */
     display: inline-flex;
     width: 3.25rem;
     height: 3.25rem;
@@ -218,6 +226,69 @@ body {
 .btn-social:hover {
     background-color: #1abc9c;
 }
+
+
+/* Projects Section */
+
+.projects-card {
+    padding: 2rem 0.5rem;
+}
+
+.project-img {
+    width: 300px;
+    height: 230px;
+}
+
+.project .project-item {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.project-item {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #2c3e50;
+  border-radius: 0;
+}
+
+.project-item:hover {
+  cursor: pointer;
+}
+
+.project-item:hover .overlay {
+  opacity: 1;
+}
+
+.overlay-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/* Contact Section */
 
 .contact-card {
     padding: 2rem 0;
