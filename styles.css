@@ -77,7 +77,7 @@ body {
 .logo-header img {
     animation: rotate 0.6s ease-in-out both;
     animation-delay: 0.7s;
-    width: 150%;
+    width: 130%;
 }
 
 @keyframes rotate {
@@ -296,9 +296,20 @@ body {
   text-align: center;
 }
 
-.project-img {
-    max-width: 379px;
-    max-height: 327.66px;
+
+.carousel .carousel-control-prev-icon {
+    background-image: url(assets/projects/arrow-left-square-fill.svg);
+}
+
+.carousel .carousel-control-next-icon {
+    background-image: url(assets/projects/arrow-right-square-fill.svg);
+}
+
+.carousel-control-prev-icon .carousel-control-next-icon {
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid;
+    border-color: #fff;
 }
 
 /* Contact Section */
