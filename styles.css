@@ -41,9 +41,38 @@
     font-family: 'Overpass', sans-serif;
 }
 
+
 html {
     scroll-behavior: smooth;
 }
+
+
+/* scroll snap */
+.parent-container {
+    overflow: scroll;
+    height: 100vh;
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: y mandatory;
+}
+
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+/* hide scrollbar chrome, safari, opera*/
+html::-webkit-scrollbar {
+    display: none;
+}
+
+/* hide scrollbar internet explorer, edge, firefox */
+html {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
 
 body {
     background-image: url(assets/background-image-ridges.jpg);
@@ -128,6 +157,8 @@ body {
 #mainNav .navbar-toggler {
     font-size: 80%;
     padding: 0.8rem;
+    color: #1abc9c;
+
 }
 
 @media (min-width: 992px) {
@@ -299,10 +330,12 @@ body {
 
 .carousel .carousel-control-prev-icon {
     background-image: url(assets/projects/arrow-left-square-fill.svg);
+    margin-left: -140px;
 }
 
 .carousel .carousel-control-next-icon {
     background-image: url(assets/projects/arrow-right-square-fill.svg);
+    margin-right: -140px;
 }
 
 .carousel-control-prev-icon .carousel-control-next-icon {
