@@ -330,12 +330,12 @@ body {
 
 .carousel .carousel-control-prev-icon {
     background-image: url(assets/projects/arrow-left-square-fill.svg);
-    margin-left: -140px;
+    margin-left: -150px;
 }
 
 .carousel .carousel-control-next-icon {
     background-image: url(assets/projects/arrow-right-square-fill.svg);
-    margin-right: -140px;
+    margin-right: -150px;
 }
 
 .carousel-control-prev-icon .carousel-control-next-icon {
