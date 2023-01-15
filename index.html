@@ -407,8 +407,8 @@
                 <!-- Contact Section Form-->
                 <div class="row justify-content-center">
                     <div class="col-lg-10 col-xl-9">
-                        <form action="https://formsubmit.co/bobartolome@gmail.com" id="contactForm"
-                            data-sb-form-api-token="API_TOKEN" method="POST">
+                        <form action="https://formsubmit.co/bobartolome@gmail.com" id="contactForm" data-sb-form-api-token="API_TOKEN"
+                            method="POST">
                             <!-- Name input-->
                             <div class="form-floating mb-1">
                                 <input class="form-control" id="name" type="text" placeholder="Enter your name..."
@@ -425,33 +425,27 @@
                                 <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                             </div>
                             <!-- Hidden subject field -->
-                            <input type="hidden" name="_subject" value="Portfolio Email Submission!">
+                            <input type="hidden" name="_subject" value="Portfolio Communication!">
                             <!-- Message input-->
                             <div class="form-floating mb-1">
-                                <textarea class="form-control" id="message" type="text"
-                                    placeholder="Enter your message here..." style="height: 10rem"
-                                    data-sb-validations="required"></textarea>
+                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..."
+                                    style="height: 10rem" data-sb-validations="required"></textarea>
                                 <label for="message">Message</label>
                                 <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.
                                 </div>
                             </div>
                             <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
                             <div class="d-none" id="submitSuccessMessage">
                                 <div class="text-center mb-1">
                                     <div class="fw-bolder">Form submission successful!</div>
                                 </div>
                             </div>
                             <!-- Submit error message-->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
                             <div class="d-none" id="submitErrorMessage">
                                 <div class="text-center text-danger mb-1">Error sending message!</div>
                             </div>
                             <!-- Submit Button-->
-                            <button class="btn btn-outline-dark btn-social btn-resume mx-1 mt-0" id="submitButton" type="submit">Send</button>
+                            <button class="btn btn-dark btn-xl" id="submitButton" type="submit">Send</button>
                         </form>
                     </div>
                 </div>
