@@ -118,6 +118,12 @@ body {
   }
 }
 
+@media (max-width: 992px) {
+    .logo-header img {
+        width: 100%;
+    }
+}
+
 #mainNav {
     animation: slide-in 1.3s both;
     animation-delay: 1.5s;
