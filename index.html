@@ -70,7 +70,7 @@
     
                     <div class="col-md-5 d-flex align-items-center justify-content-center">
                         <div class="row justify-content-center">
-                            <img class="img-profile" src="assets/about/profile-picture.png" alt="">
+                            <img class="img-profile" src="assets/about/profile-picture-edited.png" alt="">
                         </div>
                     </div>
     
@@ -404,31 +404,28 @@
                 <!-- Contact Section Form-->
                 <div class="row justify-content-center">
                     <div class="col-lg-10 col-xl-9">
-                        <form action="https://formsubmit.co/bo.bartolome@proton.me" id="contactForm" 
-                        data-sb-form-api-token="API_TOKEN" method="POST">
+                        <form target="_blank" action="https://formsubmit.co/bo.bartolome@proton.me" method="POST">
                             <!-- Name input-->
                             <div class="form-floating mb-1">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..."
-                                    data-sb-validations="required" />
+                                <input class="form-control" id="name" type="text" placeholder="Your name">
                                 <label for="name">Name</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                                <div class="invalid-feedback">A name is required.</div>
                             </div>
                             <!-- Email address input-->
                             <div class="form-floating mb-1">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com"
-                                    data-sb-validations="required,email" />
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com">
                                 <label for="email">Email address</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                                <div class="invalid-feedback">An email is required.</div>
+                                <div class="invalid-feedback">Email is not valid.</div>
                             </div>
                             <!-- Hidden subject field -->
                             <input type="hidden" name="_subject" value="Portfolio Communication!">
                             <!-- Message input-->
                             <div class="form-floating mb-1">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..."
-                                    style="height: 10rem" data-sb-validations="required"></textarea>
+                                <textarea class="form-control" id="message" type="text" placeholder="Your message"
+                                    style="height: 10rem"></textarea>
                                 <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.
+                                <div class="invalid-feedback">A message is required.
                                 </div>
                             </div>
                             <!-- Submit success message-->

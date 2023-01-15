@@ -188,8 +188,6 @@ body {
 }
 
 .card {
-    /* justify-content: center;
-    align-items: center; */
     font-size: 1.2rem;
 }
 
@@ -197,24 +195,10 @@ body {
     padding-top: 14rem;
 }
 
-@media (max-width: 992px) {
-    #about {
-        /* padding-top: 15rem; */
-    }
-
-    #projects {
-        /* margin-bottom: 50rem; */
-    }
-    
-    .card {
-        padding: 1rem;
-        margin: 1rem;
-    }
-}
 
 @media (max-width: 768px) {
     #about {
-        /* margin-top: 10rem; */
+        padding-top: 10rem;
     }
 }
 
