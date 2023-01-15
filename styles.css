@@ -49,29 +49,29 @@ html {
 
 /* scroll snap */
 .parent-container {
-    overflow: scroll;
+    /* overflow: scroll; */
     height: 100vh;
-    scroll-snap-type: mandatory;
+    /* scroll-snap-type: mandatory;
     scroll-snap-points-y: repeat(100vh);
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y mandatory; */
 }
 
-section {
-    height: 100vh;
+/* section { */
+    /* height: 100vh;
     scroll-snap-align: start;
     position: relative;
-}
+} */
 
 /* hide scrollbar chrome, safari, opera*/
-html::-webkit-scrollbar {
+/* html::-webkit-scrollbar {
     display: none;
-}
+} */
 
 /* hide scrollbar internet explorer, edge, firefox */
-html {
+/* html {
     -ms-overflow-style: none;
     scrollbar-width: none;
-}
+} */
 
 
 body {
@@ -221,7 +221,7 @@ body {
 
 @media (max-width: 992px) {
     #about {
-        margin-top: 4rem;
+        margin-top: 10rem;
         margin-bottom: 50rem;
     }
 
