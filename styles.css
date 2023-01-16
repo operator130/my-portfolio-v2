@@ -200,6 +200,10 @@ body {
     #about {
         padding-top: 10rem;
     }
+
+    .btn-resume {
+        flex-grow: 100;
+    }
 }
 
 
@@ -224,8 +228,17 @@ body {
     width: 8rem;
 }
 
+
+
 .btn-social:hover {
     background-color: #1abc9c;
+}
+
+
+@media (min-width: 768px) {
+    .line-break {
+        display: none;
+    }
 }
 
 
