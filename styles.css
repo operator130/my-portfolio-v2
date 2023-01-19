@@ -192,13 +192,13 @@ body {
 }
 
 #about {
-    padding-top: 14rem;
+    padding-top: 12rem;
 }
 
 
 @media (max-width: 768px) {
     #about {
-        padding-top: 10rem;
+        padding-top: 8rem;
     }
 
     .btn-resume {
