@@ -236,7 +236,7 @@ body {
 
 
 @media (min-width: 768px) {
-    .line-break {
+    .mobile-br {
         display: none;
     }
 }
@@ -317,6 +317,25 @@ body {
     height: 3rem;
     border: 1px solid;
     border-color: #fff;
+}
+
+.portfolio-subtitle {
+    display: inline-block;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.badge {
+    font-size: 1rem;
+    color: #fff;
+    background-color: #343a40;
+    margin: 0 0.125em 0.333em 0;
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 0.25rem;
 }
 
 /* Contact Section */
