@@ -215,6 +215,10 @@ body {
     max-height: 460px;
 }
 
+.social-section {
+    justify-content: center;
+}
+
 .btn-social {
     display: inline-flex;
     width: 3.25rem;
